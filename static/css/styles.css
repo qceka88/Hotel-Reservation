@@ -84,7 +84,6 @@ body {
     justify-content: space-between;
 }
 
-
 .background {
     width: 430px;
     height: 415px;
@@ -183,11 +182,17 @@ button {
 button:hover {
     box-shadow: 1px 1px 11px 8px #e7a83a;
 }
+
 .site-content {
     height: 70%;
 }
 
 .buttons {
+    display: flex;
+}
+
+.buttons button {
+    margin: 20px;
     display: flex;
 }
 
